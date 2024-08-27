@@ -5,7 +5,7 @@ import './SignaturePad.css'; // Import any styles for the signature pad
 
 const SignaturePad = ({ onSave }) => {
   const sigCanvas = useRef({});
-
+//done
   const clear = () => {
     sigCanvas.current.clear();
   };
